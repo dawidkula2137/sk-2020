@@ -33,8 +33,8 @@ ping 10.0.15.4
 ping 10.0.15.6
 
 Efekt
-informacja zwrotna z określonym czasem - działa1
-```
+informacja zwrotna z określonym czasem - działa
+
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
@@ -79,11 +79,11 @@ Weryfikacja połączenia
 
 Polecenie
 ping 192.168.12.19
-```
+
 
 Efekt
 host odpowiada
-```
+
 
 ### Utrwalenie konfiguracji
 
