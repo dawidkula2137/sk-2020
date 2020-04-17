@@ -99,5 +99,5 @@ Dlaczego? Jak? Co? :)
 | DOWN -> Włączenie interfejsu sieciowego| ip link set eth1 up | |
 | Sprawdzenie obecnych parametrów | ip addr show eth0 | |
 | lista wszystkich interfejsów | ip addr | |
-| Które interfejsy jakie porty słuchają | | |
+| Które interfejsy jakie porty słuchają | netstat| |
 
