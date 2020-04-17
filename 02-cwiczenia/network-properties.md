@@ -29,11 +29,11 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+ping 10.0.15.4
+ping 10.0.15.6
 
 Efekt
-```
+informacja zwrotna z określonym czasem - działa1
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -55,12 +55,12 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+1. ping 192.168.10.11
+2. ping 172.16.100.100
 
 Efekt
-```
-```
+1. host odpowiada
+2. host nie odpowiada - Network unreachable
 
 Nowa statyczna konfiguracja 
 
@@ -68,21 +68,21 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 192.168.12.1 | |
+| MASKA  | 255.255.255.0  | |
 |   |  | |
-| PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| PC 2  | | |
+| IP - address  | 192.168.12.19 | |
+| MASKA  | 255.255.255.255 | |
 
 Weryfikacja połączenia
 
 Polecenie
-```
+ping 192.168.12.19
 ```
 
 Efekt
-```
+host odpowiada
 ```
 
 ### Utrwalenie konfiguracji
@@ -94,10 +94,10 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
+| Lokalizacja pliku z konfiguracją sieci| /etc/network/interfaces | |
+| UP -> Wyłączenie interfejsu sieciowego| ip link set eth1 down| |
+| DOWN -> Włączenie interfejsu sieciowego| ip link set eth1 up | |
+| Sprawdzenie obecnych parametrów | ip addr show eth0 | |
+| lista wszystkich interfejsów | ip addr | |
 | Które interfejsy jakie porty słuchają | | |
 
