@@ -13,7 +13,7 @@
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | wyświetlanie i zarządznie routingiem |
-|               |   ``ip route add``             | przypisanie adresu do interfejsu sieciowego i konfiguracja jego parametrów |
+|               |   ``ip route add``             | przypisanie adresu do interfejsu sieciowego, konfiguracja |
 
 
 ### Zastosowania
