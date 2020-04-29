@@ -12,8 +12,8 @@
 ### ip 
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |                               | |
-|               |   ``ip route add``             | |
+|   ``route``    |                               | wyświetlanie i zarządznie routingiem |
+|               |   ``ip route add``             | przypisanie adresu do interfejsu sieciowego i konfiguracja jego parametrów |
 
 
 ### Zastosowania
